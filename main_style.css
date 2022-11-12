@@ -1,0 +1,280 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    max-height: 720px;
+    display: flex;
+}
+.grup{
+    max-height: 100%;
+    width: 60px;
+    background-color: #3C69E8;
+    transition: 0.5s;
+}
+.grup_active{
+    width: 200px;
+}
+.grup_title_container{
+    display: flex;
+    align-items: center;
+}
+.grup_title{
+    margin-left: 20px;
+    font-family: 'Liberation Sans';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.kurs_spun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 200px;
+    background-color: #3C69E8;
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    color: white;
+}
+.burger_button{
+    display: block;
+    margin: 20px 0px 0px 20px;
+    height: 20px;
+    width: 20px;
+}
+.burger, .burger::before, .burger::after{
+    position: absolute;
+    top: 27px;
+    left: 20px;
+    height: 3px;
+    width: 20px;
+    background-color: white;
+}
+.burger::before, .burger::after{
+    top: 0px;
+    left: 0px;
+    content: '';
+    transition: 0.5s;
+}
+.burger::before{
+    transform: translateY(-7px);
+}
+.burger::after{
+    transform: translateY(7px);
+}
+.active:before{
+    width: 10px;
+    transform: translateY(4px) rotate(45deg);
+}
+.active::after{
+    width: 10px;
+    transform: translateY(-4px) rotate(-45deg);
+}
+.table_container{
+    width: 100%;
+}
+table{
+    margin: 30px 0px 0px 30px;
+    border-collapse: collapse;
+}
+th, td{
+    border: 2px solid black;
+}
+.day{
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    height: 30px;
+    width: 185px;
+}
+.number{
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    height: 60px;
+    width: 35px;
+}
+.button_containet{
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+button{
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    color: white;
+    width: 200px;
+    height: 35px;
+    background: #3C69E8;
+    border-radius: 5px;
+    border: none;
+}
+.change{
+    margin-right: 20px;
+}
+.advertisement{
+    margin-top: 20px;
+    height: 160px;
+    background-color: #DADADA;
+}
+.advertisement_title_container{
+    margin-bottom: 5px;
+    display: flex;
+    box-shadow: 0px 3px 5px #A5A5A5;
+}
+.advertisement_title{
+    font-family: 'Liberation Sans';
+    font-size: 16px;
+    margin-left: 50px;
+}
+.advertisement_title:first-child{
+    margin-left: 20px;
+}
+.advertisement_description, .advertisement_description_date{
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    margin-left: 50px;
+}
+.advertisement_description_date{
+    margin-left: 20px;
+}
+hr{
+    margin: 5px 0px 5px 0px;
+    border-color: #A5A5A5;
+    
+}
+
+.main_block{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.add_window, .change_window, .grup_window{
+    height: 375px;
+    width: 700px;
+    background-color: white;
+    border-radius: 5px;
+}
+.change_window{
+    height: 210px;
+    width: 270px;
+}
+.grup_window{
+    height: 180px;
+    width: 270px;
+}
+.advertisemen_title, .change_title{
+    margin: 20px 0px 5px 20px;
+    font-family: 'Liberation Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+.add_form{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.advertisement_setting_container{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    padding-left: 20px;
+}
+.label_container{
+    text-align: right;
+    margin-right: 20px;
+}
+.advertisement_select{
+    width: 150px;
+    height: 35px;
+    background: #3C69E8;
+    border-radius: 5px;
+    color: white;
+}
+.advertisement_label, .add_label{
+    font-family: 'Liberation Sans';
+    font-size: 17px;
+    font-weight: 400;
+}
+.add_label{
+    display: block;
+    margin-top: 20px;
+}
+.add_label:first-child{
+    margin-top: 10px;
+}
+.add_label:nth-child(2){
+    margin-top: 23px;
+}
+.add_label:nth-child(3){
+    margin-top: 23px;
+}
+.add_label:nth-child(4){
+    margin-top: 23px;
+}
+.add_input, .advertisement_input, .grup_input{
+    display: block;
+    margin-top: 20px;
+    height: 35px;
+    width: 260px;
+    border: 2px solid #A5A5A5;
+    border-radius: 5px;
+}
+.add_input:first-child{
+    margin-top: 0px;
+}
+.advertisement_input{
+    margin: 20px auto;
+    height: 205px;
+    width: 660px;
+}
+.grup_input{
+    margin: 30px auto 10px auto;
+    height:  20px;
+    width: 220px;
+}
+.radio_button{
+    margin: 0px 10px 0px 33px;
+}
+.radio_button:first-child{
+    margin-left: 0px;
+}
+.change_radio_button{
+    margin: 0px 15px 15px 20px;
+}
+.change_radio_button:first-child{
+    margin-top: 10px;
+}
+.button_cancel, .button_save, 
+.change_button_cancel, .change_button_save,
+.create_kurs_button{
+    margin: 0px 0px 0px 450px;
+    height: 35px;
+    width: 110px;
+    background-color: white;
+    border: 2px #3C69E8 solid;
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    text-align: center;
+    text-justify: center;
+    font-weight: bold;
+    color: #3C69E8;
+    cursor: pointer;
+}
+.change_button_cancel, .change_button_save{
+    margin: 15px 0px 0px 20px;
+}
+.button_save, .change_button_save, .create_kurs_button{
+    margin-left: 10px;
+    background-color: #3C69E8;
+    color: white;
+}
+.create_kurs_button{
+    margin: 0px;
+
+}

@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C69E8;
+}
+h1{
+    margin: 45px 0px 0px 0px;
+    font-family: 'Liberation Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.autorization{
+    height: 270px;
+    width: 530px;
+    border-radius: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+form{
+    padding: 50px 70px;
+}
+label{
+    font-family: 'Liberation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+input{
+    margin-left: 20px;
+    width: 260px;
+    height: 35px;
+    border: 2px solid #A5A5A5;
+    border-radius: 5px;
+}
+.button_container{
+    display: flex;
+}
+.autorization_button, .code_button{
+    margin: 0px 0px 0px 270px;
+    height: 35px;
+    width: 110px;
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    text-align: center;
+    text-justify: center;
+    font-weight: bold;
+    background-color: #3C69E8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.code_button{
+    margin-left: 20px;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "group": "",
+        "type": "none",
+        "order": "",
+        "date": ""
+    },
+    {
+        "group": "",
+        "type": "replace",
+        "order": "",
+        "date": "",
+        "name": "",
+        "teacher": "",
+        "cabinet": ""
+    },
+    {
+        "group": "",
+        "type": "short",
+        "date": ""
+    },
+    {
+        "group": "P-41",
+        "type": "replace",
+        "order": 3,
+        "date": "10.11.2022",
+        "name": "Фізичне виховання",
+        "teacher": "Л. Корнута",
+        "cabinet": 106
+    },
+    {
+        "group": "P41",
+        "type": "short",
+        "date": "10.11.2022"
+    },
+    {
+        "group": "P41",
+        "type": "none",
+        "order": 3,
+        "date": "10.11.2022"
+    }
+]

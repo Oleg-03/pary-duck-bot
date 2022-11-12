@@ -1,0 +1,24 @@
+{
+    "tree": [
+        {
+            "kursName": "1 Kurs",
+            "1 Kurs": [
+                {
+                    "specialtyName": "P",
+                    "P": [
+                        "P43",
+                        "P42"
+                    ]
+                },
+                {
+                    "specialtyName": "D",
+                    "D": []
+                },
+                {
+                    "specialtyName": "M",
+                    "M": []
+                }
+            ]
+        }
+    ]
+}

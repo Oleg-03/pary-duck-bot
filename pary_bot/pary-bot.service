@@ -1,0 +1,11 @@
+[Unit]
+Description=Telegram bot for pairing reminders and information 
+
+[Service]
+WorkingDirectory=/home/oblashchuk/projects/pary/
+ExecStart=/bin/php /home/oblashchuk/projects/pary/index.php
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
